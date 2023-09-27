@@ -37,6 +37,7 @@ a {
   color: inherit;
   text-decoration: none;
   cursor: pointer;
+  -webkit-color: var(--black);
 }
 
 h1,
@@ -50,10 +51,14 @@ img {
   max-width: 100%;
 }
 
+button {
+ color: var(--black);
+}
+
 /*-----------------------------glob---------------------------------*/
 
 .container {
-  max-width: 1920px;   /*------не понятно! по заданию: ограничить расширение контейнера или нет?----*/
+  max-width: 1920px;
   margin: 0 auto;
   padding-right: 59px;
   padding-left: 75px;
@@ -718,6 +723,7 @@ outline: 2px solid #ff9900;
   line-height: 32px;
   transition: color 0.3s ease-in-out, border 0.3s ease-in-out,
     background-image 0.3s ease-in-out;
+    -webkit-color: var(--black);
 }
 
 .questions__link:focus-visible,
